@@ -22,14 +22,14 @@ const Hero = (props: Props) => {
           </div>
 
           <ul className="uppercase flex text-[10px] items-center">
-            <li className="bg-black py-3 px-6 rounded-full">Company</li>
-            <li className="border border-black text-black py-3 px-6 rounded-full">
+            <li className="bg-black py-3 px-6 rounded-full cursor-pointer ">Company</li>
+            <li className="border cursor-pointer hover:bg-black hover:text-white border-black text-black py-3 px-6 rounded-full">
               Robots
             </li>
-            <li className="border border-black text-black py-3 px-6 rounded-full">
+            <li className="border cursor-pointer hover:bg-black hover:text-white border-black text-black py-3 px-6 rounded-full">
               Projects
             </li>
-            <li className="bg-black rounded-full text-[20px] py-2 px-2 font-light ml-10">
+            <li className="bg-black rounded-full  cursor-pointer text-[20px] py-2 px-2 font-light ml-10">
               <Plus />
             </li>
           </ul>
