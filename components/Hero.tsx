@@ -6,11 +6,12 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <main className='relative h-screen' >
+    <main className=' h-screen relative' >
         <Spline
         scene="https://prod.spline.design/nguqfvu5ex73VD0Q/scene.splinecode"
-        className="w-screen h-screen absolute top-0 -z-[1]"
+        className="w-screen h-screen absolute top-0 z-[1]"
       />
+      <div className='relative z-[2]'>
       <nav className="absolute flex items-center top-0 w-full">
         <div className="flex items-center justify-between p-6 w-full">
           <span className="uppercase w-48 text-black text-xs">
@@ -65,6 +66,7 @@ const Hero = (props: Props) => {
         className="absolute right-20  top-[40rem]"
         alt="arrow-r-removebg-preview"
       ></img>
+      </div>
     </main>
   )
 }
